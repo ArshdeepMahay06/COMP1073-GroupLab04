@@ -25,6 +25,17 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
+    },
+    {
+     "name": "Choco-Lava Blast",
+     "calories": 450,
+     "type": "ice cream",
+     "ingredients": [
+    "molten chocolate",
+    "chocolate fudge",
+    "whipped cream"
+  ],
+  "image": "ice-cream-xtra1.svg" 
     }
   ]
 }
