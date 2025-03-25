@@ -31,11 +31,22 @@
      "calories": 450,
      "type": "ice cream",
      "ingredients": [
-    "molten chocolate",
-    "chocolate fudge",
-    "whipped cream"
+      "molten chocolate",
+      "chocolate fudge",
+      "whipped cream"
   ],
   "image": "ice-cream-xtra1.svg" 
+    },
+    {
+    "name": "Berry Nebula",
+    "calories": 320,
+    "type": "sorbet",
+    "ingredients": [
+      "blueberry purée",
+      "raspberry swirl",
+      "starfruit essence"
+  ],
+  "image": "ice-cream-xtra2.svg"
     }
   ]
 }
