@@ -6,7 +6,8 @@ const section = document.querySelector("section");
 async function populate() {
   // Introducing JavaScript Object Notation (JSON): https://json.org/
   // STEP 4: Store the URL of a JSON file in a variable */
-  const requestURL = "https://raw.githubusercontent.com/ArshdeepMahay06/COMP1073-GroupLab04/main/js/i-scream.json";
+  const requestURL =
+    "https://raw.githubusercontent.com/ArshdeepMahay06/COMP1073-GroupLab04/main/js/i-scream.json";
   // STEP 5: Use the new URL to create a new request object
   const request = new Request(requestURL);
   console.log(request);
@@ -40,6 +41,7 @@ function populateHeader(jsonObj) {
 function showTopFlavors(jsonObj) {
   // STEP 10c: Attache the JSON topFlavors object to a variable
   let topFlavors = jsonObj.topFlavors;
+
   // STEP 10d: Loop through the topFlavors object
   for (let i = 0; i < topFlavors.length; i++) {
     // STEP 10e: build HTML elements for the content
@@ -49,12 +51,18 @@ function showTopFlavors(jsonObj) {
     let ul = document.createElement("ul");
     let calorieCount = document.createElement("p");
 
+    // add the rating
+
+    // add the season
+
+    let typeElement = document.createElement("p");
+    typeElement.innerHTML = `<h3>Type : ${jsonObj.topFlavors[i].type}</h3>`;
+
     // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
     h2.textContent = topFlavors[i]["name"];
     image.setAttribute("src", "images/" + topFlavors[i].image);
 
     calorieCount.textContent = "Calories count: " + topFlavors[i].calories;
-
 
     // STEP 10g: Build a loop for the ingredients array in the JSON
     let ingredients = topFlavors[i]["ingredients"];
@@ -65,12 +73,15 @@ function showTopFlavors(jsonObj) {
       ul.appendChild(listItem);
     }
 
-
     // STEP 10h: Append each of the above HTML elements to the ARTICLE element
     article.appendChild(h2);
     article.appendChild(image);
     article.appendChild(ul);
     article.appendChild(calorieCount);
+    article.appendChild(typeElement);
+
+    // add the rating and season
+
     // STEP 10i: Append each complete ARTICLE element to the SECTION element
     section.appendChild(article);
   }

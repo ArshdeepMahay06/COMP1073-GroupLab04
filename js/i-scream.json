@@ -1,52 +1,68 @@
 {
-  "companyName" : "I Scream Inc.",
-  "headOffice" : "South Pole, Antarctica",
-  "established" : 2001,
-  "active" : true,
-  "topFlavors" : [
+  "companyName": "I Scream Inc.",
+  "headOffice": "South Pole, Antarctica",
+  "established": 2001,
+  "active": true,
+  "topFlavors": [
     {
-      "name" : "Monstrous Mint",
-      "calories" : 400,
-      "type" : "ice cream",
-      "ingredients" : [
+      "name": "Monstrous Mint",
+      "calories": 400,
+      "type": "ice cream",
+      "ingredients": [
         "peppermint cream",
         "dark chocolate chips",
-        "vanilla extract"
+        "vanilla extract",
+        "spearmint leaves"
       ],
-      "image" : "chocolate-mint.svg"
+      "image": "chocolate-mint.svg",
+      "rating": 4.8,
+      "popularity": "High",
+      "season": "Year-round"
     },
     {
-      "name" : "Perfect Peach Mango",
-      "calories" : 350,
-      "type" : "sorbet",
-      "ingredients" : [
+      "name": "Perfect Peach Mango",
+      "calories": 350,
+      "type": "sorbet",
+      "ingredients": [
         "peach purée",
         "mango chunks",
-        "clover honey"
+        "clover honey",
+        "lemon juice"
       ],
-      "image" : "peach-mango.svg"
+      "image": "peach-mango.svg",
+      "rating": 4.5,
+      "popularity": "Medium",
+      "season": "Summer"
     },
     {
-     "name": "Choco-Lava Blast",
-     "calories": 450,
-     "type": "ice cream",
-     "ingredients": [
-      "molten chocolate",
-      "chocolate fudge",
-      "whipped cream"
-  ],
-  "image": "ice-cream-xtra1.svg" 
+      "name": "Choco-Lava Blast",
+      "calories": 450,
+      "type": "ice cream",
+      "ingredients": [
+        "molten chocolate",
+        "chocolate fudge",
+        "whipped cream",
+        "dark cocoa powder"
+      ],
+      "image": "ice-cream-xtra1.svg",
+      "rating": 4.9,
+      "popularity": "Very High",
+      "season": "Winter"
     },
     {
-    "name": "Berry Nebula",
-    "calories": 320,
-    "type": "sorbet",
-    "ingredients": [
-      "blueberry purée",
-      "raspberry swirl",
-      "starfruit essence"
-  ],
-  "image": "ice-cream-xtra2.svg"
+      "name": "Berry Nebula",
+      "calories": 320,
+      "type": "sorbet",
+      "ingredients": [
+        "blueberry purée",
+        "raspberry swirl",
+        "starfruit essence",
+        "lime zest"
+      ],
+      "image": "ice-cream-xtra2.svg",
+      "rating": 4.7,
+      "popularity": "High",
+      "season": "Spring"
     }
   ]
 }
