@@ -67,6 +67,15 @@ typeElement.innerHTML = <h3>Type : ${jsonObj.topFlavors[i].type}</h3>;
 
  calorieCount.textContent = "Calories count: " + topFlavors[i].calories;
 
+// STEP 10g: Build a loop for the ingredients array in the JSON
+ let ingredients = topFlavors[i]["ingredients"];
+ for (let j = 0; j < ingredients.length; j++) {
+   // add the ingredient to the UL
+   let listItem = document.createElement("li");
+   listItem.textContent = ingredients[j];
+   ul.appendChild(listItem);
+ }
+
 
     
 
