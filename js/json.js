@@ -48,6 +48,19 @@ function showTopFlavors(jsonObj) {
         let image = document.createElement("img");
         let ul = document.createElement("ul");
         let calorieCount = document.createElement("p");
+
+    // add the rating
+    // add the season
+
+    let ratingSeasonHtml = `<p><strong>Rating : </strong> ${jsonObj.topFlavors[i].rating}</p>
+    <p><strong>Season : </strong> ${jsonObj.topFlavors[i].season}</p>
+    <p><strong>Populate : </strong> ${jsonObj.topFlavors[i].populate}</p>
+
+`;
+
+let typeElement = document.createElement("p");
+typeElement.innerHTML = <h3>Type : ${jsonObj.topFlavors[i].type}</h3>;
+
     
 
     
