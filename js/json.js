@@ -59,7 +59,7 @@ function showTopFlavors(jsonObj) {
 `;
 
 let typeElement = document.createElement("p");
-typeElement.innerHTML = <h3>Type : ${jsonObj.topFlavors[i].type}</h3>;
+typeElement.innerHTML = `<h3>Type : ${jsonObj.topFlavors[i].type}</h3>`;
 
  // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
  h2.textContent = topFlavors[i]["name"];
