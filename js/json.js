@@ -90,6 +90,8 @@ typeElement.innerHTML = <h3>Type : ${jsonObj.topFlavors[i].type}</h3>;
     section.appendChild(article);
   }
 }
+// STEP 11: The instructor will edit the JSON file - refresh your page to see the updated content
+
 
     
 
