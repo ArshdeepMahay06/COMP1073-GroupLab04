@@ -84,6 +84,9 @@ typeElement.innerHTML = <h3>Type : ${jsonObj.topFlavors[i].type}</h3>;
     article.appendChild(calorieCount);
     article.innerHTML += ratingSeasonHtml;
 
+        // add the rating and season
+
+
     
 
     
