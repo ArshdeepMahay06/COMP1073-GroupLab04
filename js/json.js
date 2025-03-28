@@ -76,6 +76,13 @@ typeElement.innerHTML = <h3>Type : ${jsonObj.topFlavors[i].type}</h3>;
    ul.appendChild(listItem);
  }
 
+    // STEP 10h: Append each of the above HTML elements to the ARTICLE element
+    article.appendChild(h2);
+    article.appendChild(typeElement);
+    article.appendChild(image);
+    article.appendChild(ul);
+    article.appendChild(calorieCount);
+    article.innerHTML += ratingSeasonHtml;
 
     
 
