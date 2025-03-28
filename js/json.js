@@ -36,6 +36,10 @@ function populateHeader(jsonObj) {
   // Inject the complete H1 element into the DOM, inside the HEADER
   header.appendChild(headreH1);
 }
+/* STEP 10b: Assemble the showTopFlavors() function */
+function showTopFlavors(jsonObj) {
+    
+
 
 
 
