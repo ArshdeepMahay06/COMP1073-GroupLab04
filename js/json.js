@@ -86,6 +86,10 @@ typeElement.innerHTML = <h3>Type : ${jsonObj.topFlavors[i].type}</h3>;
 
         // add the rating and season
 
+    // STEP 10i: Append each complete ARTICLE element to the SECTION element
+    section.appendChild(article);
+  }
+}
 
     
 
