@@ -42,6 +42,13 @@ function showTopFlavors(jsonObj) {
     let topFlavors = jsonObj.topFlavors;
       // STEP 10d: Loop through the topFlavors object
   for (let i = 0; i < topFlavors.length; i++) {
+        // STEP 10e: build HTML elements for the content
+        let article = document.createElement("article");
+        let h2 = document.createElement("h2");
+        let image = document.createElement("img");
+        let ul = document.createElement("ul");
+        let calorieCount = document.createElement("p");
+    
 
     
 
