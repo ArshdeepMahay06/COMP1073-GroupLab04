@@ -38,6 +38,8 @@ function populateHeader(jsonObj) {
 }
 /* STEP 10b: Assemble the showTopFlavors() function */
 function showTopFlavors(jsonObj) {
+  // STEP 10c: Attache the JSON topFlavors object to a variable
+    let topFlavors = jsonObj.topFlavors;
     
 
 
