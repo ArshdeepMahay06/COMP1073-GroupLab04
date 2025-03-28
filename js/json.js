@@ -4,3 +4,4 @@ const section = document.querySelector("section");
 
 // STEP 3a: Create the asynchronous function populate()
 async function populate() {
+ // Introducing JavaScript Object Notation (JSON): https://json.org/
