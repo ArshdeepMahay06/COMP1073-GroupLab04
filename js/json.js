@@ -52,7 +52,6 @@ function showTopFlavors(jsonObj) {
     let calorieCount = document.createElement("p");
 
     // add the rating
-
     // add the season
 
     let typeElement = document.createElement("p");
@@ -75,10 +74,11 @@ function showTopFlavors(jsonObj) {
 
     // STEP 10h: Append each of the above HTML elements to the ARTICLE element
     article.appendChild(h2);
+    article.appendChild(typeElement);
     article.appendChild(image);
     article.appendChild(ul);
     article.appendChild(calorieCount);
-    article.appendChild(typeElement);
+    article.innerHTML += ratingSeasonHtml;
 
     // add the rating and season
 
