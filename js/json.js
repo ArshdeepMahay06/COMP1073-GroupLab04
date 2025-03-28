@@ -11,3 +11,8 @@ async function populate() {
   // STEP 5: Use the new URL to create a new request object
   const request = new Request(requestURL);
   console.log(request);
+    // STEP 6: Make a network request with the fetch() function, which returns a Response object
+
+    const response = await fetch(request);
+
+
