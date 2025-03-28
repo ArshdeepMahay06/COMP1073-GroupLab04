@@ -22,4 +22,8 @@ async function populate() {
   // STEP 9a: Invoke the populateHeader function here, then build it below
   populateHeader(iScream);
 
+// STEP 10a: Invoke the showTopFlavors function here, then build it below
+showTopFlavors(iScream);
+}
+populate();
 
