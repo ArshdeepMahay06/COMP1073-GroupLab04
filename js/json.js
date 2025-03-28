@@ -26,4 +26,6 @@ async function populate() {
 showTopFlavors(iScream);
 }
 populate();
+// STEP 3b: Call the populate() function
+
 
